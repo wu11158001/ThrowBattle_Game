@@ -10,9 +10,11 @@
     <type fullname="CharacterAnimControl" preserve="all" />
     <type fullname="CharacterView" preserve="all" />
     <type fullname="DataConfig" preserve="all" />
+    <type fullname="DescribleView" preserve="all" />
     <type fullname="GameBgView" preserve="all" />
     <type fullname="GameOverView" preserve="all" />
     <type fullname="GameView" preserve="all" />
+    <type fullname="ImageGradients" preserve="all" />
     <type fullname="LobbyView" preserve="all" />
     <type fullname="MatchingView" preserve="all" />
     <type fullname="MessagePopupView" preserve="all" />
