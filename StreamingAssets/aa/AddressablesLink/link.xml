@@ -12,6 +12,7 @@
     <type fullname="CharacterView" preserve="all" />
     <type fullname="DataConfig" preserve="all" />
     <type fullname="DescribleView" preserve="all" />
+    <type fullname="EnhancedUI.EnhancedScroller.EnhancedScroller" preserve="all" />
     <type fullname="GameBgView" preserve="all" />
     <type fullname="GameOverView" preserve="all" />
     <type fullname="GameView" preserve="all" />
@@ -22,6 +23,8 @@
     <type fullname="ObjectPrefabConfig" preserve="all" />
     <type fullname="SetNicknameView" preserve="all" />
     <type fullname="SkillBtn" preserve="all" />
+    <type fullname="TeachingCellView" preserve="all" />
+    <type fullname="TeachingView" preserve="all" />
     <type fullname="TeleportStateMachineBehaviour" preserve="all" />
     <type fullname="ThrowObjectView" preserve="all" />
     <type fullname="UIEventHandler" preserve="all" />
@@ -72,6 +75,7 @@
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />

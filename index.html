@@ -118,6 +118,18 @@
         updateBannerVisibility();
       }
 
+      // 網頁關閉或重新整理時，發送登出
+      window.addEventListener('beforeunload', function (event) {
+        const playerId = sessionStorage.getItem("PLAYER_ID");        
+        if (playerId) {
+          const data = JSON.stringify({ playerId: playerId });
+          const logoutUrl = 'https://throwbattle-server.onrender.com/api/lobby/logout';           
+          const blob = new Blob([data], { type: 'application/json' });          
+          // 使用 sendBeacon 保證瀏覽器關閉時 HTTP 請求仍能成功送出
+          navigator.sendBeacon(logoutUrl, blob);
+        }
+      });
+
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/ThrowBattle_Game.loader.js";
       var config = {
